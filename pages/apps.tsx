@@ -214,60 +214,53 @@ const HighlightsSection = () => {
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Core components">
+      <HighlightsItem colSpan={[1, null, 2]} title="Think like a pro investor">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Get started for free with <Em>30+ open source components</Em>.
-            Including authentication screens with Clerk, Supabase and Magic.
-            Fully functional forms with React Hook Form. Data tables with React
-            Table.
+            Get the same foundational quantative research tools and analytics capabilities that professional investors use. The tool helps you to better explain market movements and identify opportunities easily.
           </Text>
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Solid foundations">
+      <HighlightsItem title="Make data driven decisions">
         <Text color="muted" fontSize="lg">
-          We don&apos;t like to re-invent the wheel, neither should you. We
-          selected the most productive and established tools in the scene and
-          build Saas UI on top of it.
+          We help you to easily analyze your understanding with specific market security of your pick and how it is positioned within the macro-economic trends.
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Renata Alink"
-        description="Founder"
-        avatar="/static/images/avatar.jpg"
+        name="Warren Buffet"
+        description="Investor"
+        avatar="/static/images/warren-buffet-avatar.png"
         gradient={["pink.200", "purple.500"]}
       >
-        “Saas UI helped us set up a beautiful modern UI in no time. It saved us
-        hundreds of hours in development time and allowed us to focus on
-        business logic for our specific use-case from the start.”
+        “Investing a business where you think. Analyzing macro economic trends is important, but understanding how specific businesses are positioned within those trends is even more critical.”
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
-        title="Start your next idea two steps ahead"
+        title="Learn concepts with ease; backtest with data"
       >
         <Text color="muted" fontSize="lg">
-          We took care of all your basic frontend needs, so you can start
-          building functionality that makes your product unique.
+        We help you to clearly understand macro-economic concepts easily without the need to go through loads of boring text books.
+        We also help you to understand how those concepts impact market through our analytical tools.
         </Text>
         <Wrap mt="8">
           {[
-            "authentication",
-            "navigation",
-            "crud",
-            "settings",
-            "multi-tenancy",
-            "layouts",
-            "billing",
-            "a11y testing",
-            "server-side rendering",
-            "documentation",
-            "onboarding",
-            "storybooks",
-            "theming",
-            "upselling",
-            "unit testing",
-            "feature flags",
-            "responsiveness",
+            "Interest Rates",
+            "CPI",
+            "PPI",
+            "Core PCE",
+            "PMI",
+            "FOMC Meetings",
+            "GDP",
+            "Fed Memo",
+            "Initial Jobless Claims",
+            "Government Spending",
+            "Government Debt Auctions",
+            "REITs",
+            "Home Sales",
+            "Personal Income",
+            "ISM Factory Index",
+            "Auto sales",
+            "Consumer Credit",
           ].map((value) => (
             <Tag
               key={value}
@@ -302,10 +295,9 @@ const FeaturesSection = () => {
       }
       description={
         <>
-          Saas UI Pro includes everything you need to build modern frontends.
+          Macro Surfer offers you a comprehensive set of analytics tools 
           <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
+          for macro research and help you to understand market trend from economic data
         </>
       }
       align="left"
@@ -313,71 +305,65 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Components.",
+          title: "Economic Calendar",
           icon: FiBox,
           description:
-            "All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.",
+            "Up to date upcoming economic event calendar is available for free",
           variant: "inline",
         },
         {
-          title: "Starterkits.",
+          title: "US Major Indices",
           icon: FiLock,
           description:
-            "Example apps in Next.JS, Electron. Including authentication, billing, example pages, everything you need to get started FAST.",
+            "Track major US indicies movements available in the dashboard",
           variant: "inline",
         },
         {
-          title: "Documentation.",
+          title: "Stocks & ETF data",
           icon: FiSearch,
           description:
-            "Extensively documented, including storybooks, best practices, use-cases and examples.",
+            "Historic and current stock and ETF data available to view and analyze",
           variant: "inline",
         },
         {
-          title: "Onboarding.",
+          title: "Clear Dashbaord",
           icon: FiUserPlus,
           description:
-            "Add user onboarding flows, like tours, hints and inline documentation without breaking a sweat.",
+            "Offers you a clear dashboard to view current market snapshot with upcoming economic calendar events",
           variant: "inline",
         },
         {
-          title: "Feature flags.",
+          title: "Deep Dive View",
           icon: FiFlag,
           description:
-            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
+            "Annotate stock & ETF of your choice against a particular economic event to understand its impact",
           variant: "inline",
         },
         {
-          title: "Upselling.",
+          title: "Projection View",
           icon: FiTrendingUp,
           description:
-            "Components and hooks for upgrade flows designed to make upgrading inside your app frictionless.",
+            "See how an incoming economic event could impact security of your choice",
           variant: "inline",
         },
         {
-          title: "Themes.",
+          title: "Scan for Opportunities",
           icon: FiToggleLeft,
           description:
-            "Includes multiple themes with darkmode support, always have the perfect starting point for your next project.",
+            "identify securities that could potentially benefit/impacted from an incoming economic event",
           variant: "inline",
         },
         {
-          title: "Generators.",
+          title: "Explaining Market Movements",
           icon: FiTerminal,
           description:
-            "Extend your design system while maintaininig code quality and consistency with built-in generators.",
+            "identify potential relevant events that contributes to a security's current movement",
           variant: "inline",
         },
         {
-          title: "Monorepo.",
+          title: "Knowledge hub chatbot",
           icon: FiCode,
-          description: (
-            <>
-              All code is available as packages in a high-performance{" "}
-              <Link href="https://turborepo.com">Turborepo</Link>, you have full
-              control to modify and adjust it to your workflow.
-            </>
-          ),
+          description: "A chatbot that helps you to learn concepts with ease without the need to go through textbooks",
           variant: "inline",
         },
       ]}
