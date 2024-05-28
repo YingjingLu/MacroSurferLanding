@@ -65,8 +65,8 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Saas UI Landingspage"
-        description="Free SaaS landingspage starter kit"
+        title="MacroSurfer"
+        description="Ultimate analytics tool for Macro Investment Research"
       />
       <Box>
         <HeroSection />
@@ -75,9 +75,9 @@ const Home: NextPage = () => {
 
         <FeaturesSection />
 
-        <TestimonialsSection />
+        {/* <TestimonialsSection /> */}
 
-        <PricingSection />
+        {/* <PricingSection /> */}
 
         <FaqSection />
       </Box>
@@ -97,26 +97,24 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Invest smarter
+                <Br /> with a macro view
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                Macro Surfer is a tool that helps you <Br/> to <Em>explain</Em> & <Em>predict</Em> how market move <Br/ >based on macroeconomic data.
               </FallInPlace>
             }
           >
             <FallInPlace delay={0.8}>
               <HStack pt="4" pb="12" spacing="8">
-                <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
+
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
                 <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                  Sign Up
+                  Launch app
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
@@ -135,7 +133,7 @@ const HeroSection: React.FC = () => {
                     />
                   }
                 >
-                  View demo
+                  View documentation
                 </ButtonLink>
               </ButtonGroup>
             </FallInPlace>
@@ -176,31 +174,31 @@ const HeroSection: React.FC = () => {
           {
             title: "Accessible",
             icon: FiSmile,
-            description: "All components strictly follow WAI-ARIA standards.",
+            description: "Easy to access macro-economic calendar for the comming weeks with a easy-to-navigate view",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Themable",
+            title: "Overviewable",
             icon: FiSliders,
             description:
-              "Fully customize all components to your brand with theme support and style props.",
+              "Easy to view major market index performance against the macro-economic data",
             iconPosition: "left",
             delay: 0.8,
           },
           {
-            title: "Composable",
+            title: "Benchmarkable",
             icon: FiGrid,
             description:
-              "Compose components to fit your needs and mix them together to create new ones.",
+              "Easy to benchmark your stock and ETF performance against a particular macro-economic event in the past",
             iconPosition: "left",
             delay: 1,
           },
           {
-            title: "Productive",
+            title: "Quantifiable",
             icon: FiThumbsUp,
             description:
-              "Designed to reduce boilerplate and fully typed, build your product at speed.",
+              "Offers quantified data to help predict how incoming macro-economic data would impact performance of securities",
             iconPosition: "left",
             delay: 1.1,
           },
@@ -224,36 +222,6 @@ const HighlightsSection = () => {
             Fully functional forms with React Hook Form. Data tables with React
             Table.
           </Text>
-
-          <Flex
-            rounded="full"
-            borderWidth="1px"
-            flexDirection="row"
-            alignItems="center"
-            py="1"
-            ps="8"
-            pe="2"
-            bg="primary.900"
-            _dark={{ bg: "gray.900" }}
-          >
-            <Box>
-              <Text color="yellow.400" display="inline">
-                yarn add
-              </Text>{" "}
-              <Text color="cyan.300" display="inline">
-                @saas-ui/react
-              </Text>
-            </Box>
-            <IconButton
-              icon={hasCopied ? <FiCheck /> : <FiCopy />}
-              aria-label="Copy install command"
-              onClick={onCopy}
-              variant="ghost"
-              ms="4"
-              isRound
-              color="white"
-            />
-          </Flex>
         </VStack>
       </HighlightsItem>
       <HighlightsItem title="Solid foundations">
@@ -329,7 +297,7 @@ const FeaturesSection = () => {
           as="p"
         >
           Not your standard
-          <Br /> dashboard template.
+          <Br /> broker app data view
         </Heading>
       }
       description={
@@ -471,7 +439,7 @@ export async function getStaticProps() {
         title: "Support us by becoming a stargazer! 🚀 ",
         description:
           '<img src="https://img.shields.io/github/stars/saas-js/saas-ui.svg?style=social&label=Star" />',
-        href: "https://github.com/saas-js/saas-ui",
+        href: "https://github.com/YingjingLu/MacroSurferApp",
         action: false,
       },
     },

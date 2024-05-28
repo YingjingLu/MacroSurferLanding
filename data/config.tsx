@@ -8,8 +8,8 @@ import { Logo } from './logo'
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Saas UI',
-    description: 'The React component library for startups',
+    title: 'Macro Surfer',
+    description: 'Ultimate analytics tool for Macro Investment Research',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -19,21 +19,21 @@ const siteConfig = {
         id: 'features',
         label: 'Features',
       },
-      {
-        id: 'pricing',
-        label: 'Pricing',
-      },
+      // {
+      //   id: 'pricing',
+      //   label: 'Pricing',
+      // },
       {
         id: 'faq',
         label: 'FAQ',
       },
+      // {
+      //   label: 'Login',
+      //   href: '/login',
+      // },
       {
-        label: 'Login',
-        href: '/login',
-      },
-      {
-        label: 'Sign Up',
-        href: '/signup',
+        label: 'Launch app',
+        href: 'https://app.macrosurfer.com/dashboard',
         variant: 'primary',
       },
     ],
