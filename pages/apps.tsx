@@ -118,7 +118,7 @@ const HeroSection: React.FC = () => {
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://demo.saas-ui.dev"
+                  href="https://app.macrosurfer.com/dashboard"
                   variant="outline"
                   rightIcon={
                     <Icon
