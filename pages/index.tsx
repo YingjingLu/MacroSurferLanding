@@ -113,7 +113,7 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/signup">
+                <ButtonLink colorScheme="primary" size="lg" href="https://app.macrosurfer.com/dashboard">
                   Launch app
                 </ButtonLink>
                 <ButtonLink
