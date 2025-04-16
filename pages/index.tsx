@@ -118,7 +118,7 @@ const HeroSection: React.FC = () => {
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://chat.macrosurfer.com/"
+                  href="https://github.com/MacroSurfer/MacroSurferFunctions"
                   variant="outline"
                   rightIcon={
                     <Icon
