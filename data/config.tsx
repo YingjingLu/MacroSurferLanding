@@ -46,16 +46,16 @@ const siteConfig = {
       </>
     ),
     links: [
+      // {
+      //   href: 'mailto:hello@saas-ui.dev',
+      //   label: 'Contact',
+      // },
+      // {
+      //   href: 'https://twitter.com/saas_js',
+      //   label: <FaTwitter size="14" />,
+      // },
       {
-        href: 'mailto:hello@saas-ui.dev',
-        label: 'Contact',
-      },
-      {
-        href: 'https://twitter.com/saas_js',
-        label: <FaTwitter size="14" />,
-      },
-      {
-        href: 'https://github.com/saas-js/saas-ui',
+        href: 'https://github.com/MacroSurfer/MacroSurferFunctions',
         label: <FaGithub size="14" />,
       },
     ],
