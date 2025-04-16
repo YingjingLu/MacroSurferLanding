@@ -211,71 +211,71 @@ const HeroSection: React.FC = () => {
 
 const HighlightsSection = () => {
   const { value, onCopy, hasCopied } = useClipboard("yarn add @saas-ui/react");
-
-  return (
-    <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Think like a pro investor">
-        <VStack alignItems="flex-start" spacing="8">
-          <Text color="muted" fontSize="xl">
-            Get the same foundational quantative research tools and analytics capabilities that professional investors use. The tool helps you to better explain market movements and identify opportunities easily.
-          </Text>
-        </VStack>
-      </HighlightsItem>
-      <HighlightsItem title="Make data driven decisions">
-        <Text color="muted" fontSize="lg">
-          We help you to easily analyze your understanding with specific market security of your pick and how it is positioned within the macro-economic trends.
-        </Text>
-      </HighlightsItem>
-      <HighlightsTestimonialItem
-        name="Warren Buffet"
-        description="Investor"
-        avatar="/static/images/warren-buffet-avatar.png"
-        gradient={["pink.200", "purple.500"]}
-      >
-        “Investing a business where you think. Analyzing macro economic trends is important, but understanding how specific businesses are positioned within those trends is even more critical.”
-      </HighlightsTestimonialItem>
-      <HighlightsItem
-        colSpan={[1, null, 2]}
-        title="Learn concepts with ease; backtest with data"
-      >
-        <Text color="muted" fontSize="lg">
-        We help you to clearly understand macro-economic concepts easily without the need to go through loads of boring text books.
-        We also help you to understand how those concepts impact market through our analytical tools.
-        </Text>
-        <Wrap mt="8">
-          {[
-            "Interest Rates",
-            "CPI",
-            "PPI",
-            "Core PCE",
-            "PMI",
-            "FOMC Meetings",
-            "GDP",
-            "Fed Memo",
-            "Initial Jobless Claims",
-            "Government Spending",
-            "Government Debt Auctions",
-            "REITs",
-            "Home Sales",
-            "Personal Income",
-            "ISM Factory Index",
-            "Auto sales",
-            "Consumer Credit",
-          ].map((value) => (
-            <Tag
-              key={value}
-              variant="subtle"
-              colorScheme="purple"
-              rounded="full"
-              px="3"
-            >
-              {value}
-            </Tag>
-          ))}
-        </Wrap>
-      </HighlightsItem>
-    </Highlights>
-  );
+  return (<></>);
+  // return (
+  //   <Highlights>
+  //     <HighlightsItem colSpan={[1, null, 2]} title="Think like a pro investor">
+  //       <VStack alignItems="flex-start" spacing="8">
+  //         <Text color="muted" fontSize="xl">
+  //           Get the same foundational quantative research tools and analytics capabilities that professional investors use. The tool helps you to better explain market movements and identify opportunities easily.
+  //         </Text>
+  //       </VStack>
+  //     </HighlightsItem>
+  //     <HighlightsItem title="Make data driven decisions">
+  //       <Text color="muted" fontSize="lg">
+  //         We help you to easily analyze your understanding with specific market security of your pick and how it is positioned within the macro-economic trends.
+  //       </Text>
+  //     </HighlightsItem>
+  //     <HighlightsTestimonialItem
+  //       name="Warren Buffet"
+  //       description="Investor"
+  //       avatar="/static/images/warren-buffet-avatar.png"
+  //       gradient={["pink.200", "purple.500"]}
+  //     >
+  //       “Investing a business where you think. Analyzing macro economic trends is important, but understanding how specific businesses are positioned within those trends is even more critical.”
+  //     </HighlightsTestimonialItem>
+  //     <HighlightsItem
+  //       colSpan={[1, null, 2]}
+  //       title="Learn concepts with ease; backtest with data"
+  //     >
+  //       <Text color="muted" fontSize="lg">
+  //       We help you to clearly understand macro-economic concepts easily without the need to go through loads of boring text books.
+  //       We also help you to understand how those concepts impact market through our analytical tools.
+  //       </Text>
+  //       <Wrap mt="8">
+  //         {[
+  //           "Interest Rates",
+  //           "CPI",
+  //           "PPI",
+  //           "Core PCE",
+  //           "PMI",
+  //           "FOMC Meetings",
+  //           "GDP",
+  //           "Fed Memo",
+  //           "Initial Jobless Claims",
+  //           "Government Spending",
+  //           "Government Debt Auctions",
+  //           "REITs",
+  //           "Home Sales",
+  //           "Personal Income",
+  //           "ISM Factory Index",
+  //           "Auto sales",
+  //           "Consumer Credit",
+  //         ].map((value) => (
+  //           <Tag
+  //             key={value}
+  //             variant="subtle"
+  //             colorScheme="purple"
+  //             rounded="full"
+  //             px="3"
+  //           >
+  //             {value}
+  //           </Tag>
+  //         ))}
+  //       </Wrap>
+  //     </HighlightsItem>
+  //   </Highlights>
+  // );
 };
 
 const FeaturesSection = () => {
