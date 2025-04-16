@@ -98,12 +98,12 @@ const HeroSection: React.FC = () => {
             title={
               <FallInPlace>
                 Invest smarter
-                <Br /> with a macro view
+                <Br /> with custom AI agent
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Macro Surfer is a tool that helps you <Br/> to <Em>explain</Em> & <Em>predict</Em> how market move <Br/ >based on macroeconomic data.
+                Macro Surfer is a set of tools that allows you to build and customize your own <Em>LLM</Em> based <Em>AI agent</Em> to make quantative investment decisions based on <Em>macroeconomic</Em> and <Em>fundamental</Em> data.
               </FallInPlace>
             }
           >
@@ -113,12 +113,12 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="https://app.macrosurfer.com/dashboard">
-                  Launch app
+                <ButtonLink colorScheme="primary" size="lg" href="https://chat.macrosurfer.com/">
+                  Try demo
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://app.macrosurfer.com/dashboard"
+                  href="https://chat.macrosurfer.com/"
                   variant="outline"
                   rightIcon={
                     <Icon
@@ -172,25 +172,25 @@ const HeroSection: React.FC = () => {
         pt="20"
         features={[
           {
-            title: "Accessible",
+            title: "Open Sourced",
             icon: FiSmile,
-            description: "Easy to access macro-economic calendar for the comming weeks with a easy-to-navigate view",
+            description: "Macro Surfer is open sourced and you can build your own custom AI agent with your own data",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Overviewable",
+            title: "Customizable",
             icon: FiSliders,
             description:
-              "Easy to view major market index performance against the macro-economic data",
+              "You can customize the AI agent to your own needs by providing your own data and training it on your own data",
             iconPosition: "left",
             delay: 0.8,
           },
           {
-            title: "Benchmarkable",
+            title: "No code; just ask",
             icon: FiGrid,
             description:
-              "Easy to benchmark your stock and ETF performance against a particular macro-economic event in the past",
+              "The agent enables you to do market research in natural language and get answers in a conversational manner",
             iconPosition: "left",
             delay: 1,
           },
@@ -198,7 +198,7 @@ const HeroSection: React.FC = () => {
             title: "Quantifiable",
             icon: FiThumbsUp,
             description:
-              "Offers quantified data to help predict how incoming macro-economic data would impact performance of securities",
+              "Offers quantified evidence to support any deep dive analysis you need to arrive with an investment decision",
             iconPosition: "left",
             delay: 1.1,
           },
@@ -295,9 +295,9 @@ const FeaturesSection = () => {
       }
       description={
         <>
-          Macro Surfer offers you a comprehensive set of analytics tools 
+          Macro Surfer offers you a comprehensive set of analytics 
           <Br />
-          for macro research and help you to understand market trend from economic data
+          without the need to learn programming or any sophisticated tools
         </>
       }
       align="left"
@@ -308,49 +308,49 @@ const FeaturesSection = () => {
           title: "Economic Calendar",
           icon: FiBox,
           description:
-            "Up to date upcoming economic event calendar is available for free",
+            "Up to date upcoming economic event calendar across the globe",
           variant: "inline",
         },
         {
-          title: "US Major Indices",
+          title: "Financial Estimates",
           icon: FiLock,
           description:
-            "Track major US indicies movements available in the dashboard",
+            "Track financial estimates of your favorite companies",
           variant: "inline",
         },
         {
-          title: "Stocks & ETF data",
+          title: "Company ratings and price targets",
           icon: FiSearch,
           description:
-            "Historic and current stock and ETF data available to view and analyze",
+            "Use ratings and price targets to make investment decisions",
           variant: "inline",
         },
         {
-          title: "Clear Dashbaord",
+          title: "Full history of earnings and dividends",
           icon: FiUserPlus,
           description:
-            "Offers you a clear dashboard to view current market snapshot with upcoming economic calendar events",
+            "Track foundamental shifts to identify potential opportunities",
           variant: "inline",
         },
         {
-          title: "Deep Dive View",
+          title: "ETFs & Mutual Funds",
           icon: FiFlag,
           description:
-            "Annotate stock & ETF of your choice against a particular economic event to understand its impact",
+            "Track ETFs and Mutual Funds performance without the need to know the underlying holdings",
           variant: "inline",
         },
         {
-          title: "Projection View",
+          title: "Market Index",
           icon: FiTrendingUp,
           description:
-            "See how an incoming economic event could impact security of your choice",
+            "Track major market index performance to view how overall market is performing",
           variant: "inline",
         },
         {
           title: "Scan for Opportunities",
           icon: FiToggleLeft,
           description:
-            "identify securities that could potentially benefit/impacted from an incoming economic event",
+            "Scan for opportunities across the globe based on your own criteria",
           variant: "inline",
         },
         {
@@ -363,7 +363,7 @@ const FeaturesSection = () => {
         {
           title: "Knowledge hub chatbot",
           icon: FiCode,
-          description: "A chatbot that helps you to learn concepts with ease without the need to go through textbooks",
+          description: "Learn concepts with ease without the need to go through textbooks",
           variant: "inline",
         },
       ]}
@@ -424,8 +424,8 @@ export async function getStaticProps() {
       announcement: {
         title: "Support us by becoming a stargazer! 🚀 ",
         description:
-          '<img src="https://img.shields.io/github/stars/saas-js/saas-ui.svg?style=social&label=Star" />',
-        href: "https://github.com/YingjingLu/MacroSurferApp",
+'<script async defer src="https://buttons.github.io/buttons.js"></script><a class="github-button" href="https://github.com/MacroSurfer/MacroSurferFunctions" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Star MacroSurfer/MacroSurferFunctions on GitHub">Star</a>',
+        href: "https://github.com/MacroSurfer/MacroSurferFunctions",
         action: false,
       },
     },

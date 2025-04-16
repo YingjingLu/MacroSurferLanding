@@ -32,8 +32,8 @@ const siteConfig = {
       //   href: '/login',
       // },
       {
-        label: 'Launch app',
-        href: 'https://app.macrosurfer.com/dashboard',
+        label: 'Try demo',
+        href: 'https://chat.macrosurfer.com/',
         variant: 'primary',
       },
     ],
