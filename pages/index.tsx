@@ -98,12 +98,12 @@ const HeroSection: React.FC = () => {
             title={
               <FallInPlace>
                 Invest smarter
-                <Br /> with custom AI agent
+                <Br /> with your own quantative AI agent
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Macro Surfer is a set of tools that allows you to build and customize your own <Em>LLM</Em> based <Em>AI agent</Em> to make quantative investment decisions based on <Em>macroeconomic</Em> and <Em>fundamental</Em> data.
+                MacroSurfer is an open source platform that allows you to build your own <Em>macroeconomic</Em> and <Em>fundamental</Em> data curation pipeline for analysis and customize your own <Em>LLM</Em> based <Em>AI agent</Em> to make quantative investment decisions.
               </FallInPlace>
             }
           >
@@ -139,21 +139,20 @@ const HeroSection: React.FC = () => {
             </FallInPlace>
           </Hero>
           <Box
-            height="600px"
+            height={{ base: "300px", md: "400px", lg: "600px" }}
             position="absolute"
             display={{ base: "none", lg: "block" }}
             left={{ lg: "60%", xl: "55%" }}
-            width="80vw"
-            maxW="1100px"
+            width={{ base: "90vw", md: "85vw", lg: "80vw" }}
             margin="0 auto"
           >
             <FallInPlace delay={1}>
-              <Box overflow="hidden" height="100%">
+              <Box overflow="hidden" height="100%" borderRightRadius="80px" borderLeftRadius="80px" borderTopRadius="80px">
                 <Image
-                  src="/static/screenshots/list-v2.png"
-                  layout="fixed"
+                  src="/static/screenshots/illustration.jpg"
+                  layout="responsive"
                   width={1200}
-                  height={762}
+                  height={900}
                   alt="Screenshot of a ListPage in Saas UI Pro"
                   quality="75"
                   priority
@@ -174,7 +173,7 @@ const HeroSection: React.FC = () => {
           {
             title: "Open Sourced",
             icon: FiSmile,
-            description: "Macro Surfer is open sourced and you can build your own custom AI agent with your own data",
+            description: "MacroSurfer is open sourced and you can build your own custom AI agent with your own data",
             iconPosition: "left",
             delay: 0.6,
           },
@@ -232,7 +231,7 @@ const HighlightsSection = () => {
   //       avatar="/static/images/warren-buffet-avatar.png"
   //       gradient={["pink.200", "purple.500"]}
   //     >
-  //       “Investing a business where you think. Analyzing macro economic trends is important, but understanding how specific businesses are positioned within those trends is even more critical.”
+  //       "Investing a business where you think. Analyzing macro economic trends is important, but understanding how specific businesses are positioned within those trends is even more critical."
   //     </HighlightsTestimonialItem>
   //     <HighlightsItem
   //       colSpan={[1, null, 2]}
@@ -295,7 +294,7 @@ const FeaturesSection = () => {
       }
       description={
         <>
-          Macro Surfer offers you a comprehensive set of analytics 
+          MacroSurfer offers you a comprehensive set of analytics 
           <Br />
           without the need to learn programming or any sophisticated tools
         </>
