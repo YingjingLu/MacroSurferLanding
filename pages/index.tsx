@@ -139,18 +139,19 @@ const HeroSection: React.FC = () => {
             </FallInPlace>
           </Hero>
           <Box
-            height={{ base: "300px", md: "400px", lg: "600px" }}
+            height="400px"
             position="absolute"
             display={{ base: "none", lg: "block" }}
             left={{ lg: "60%", xl: "55%" }}
-            width={{ base: "90vw", md: "85vw", lg: "80vw" }}
+            width="80vw"
+            maxW="700"
             margin="0 auto"
           >
             <FallInPlace delay={1}>
               <Box overflow="hidden" height="100%" borderRightRadius="80px" borderLeftRadius="80px" borderTopRadius="80px">
                 <Image
                   src="/static/screenshots/illustration.jpg"
-                  layout="responsive"
+                  layout="fixed"
                   width={1200}
                   height={900}
                   alt="Screenshot of a ListPage in Saas UI Pro"
