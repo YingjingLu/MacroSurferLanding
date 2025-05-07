@@ -33,7 +33,7 @@ const siteConfig = {
       // },
       {
         label: 'Try demo',
-        href: 'https://chat.macrosurfer.com/',
+        href: 'https://app.macrosurfer.com/',
         variant: 'primary',
       },
     ],

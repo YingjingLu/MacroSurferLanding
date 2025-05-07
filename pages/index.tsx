@@ -113,7 +113,7 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="https://chat.macrosurfer.com/">
+                <ButtonLink colorScheme="primary" size="lg" href="https://app.macrosurfer.com/">
                   Try demo
                 </ButtonLink>
                 <ButtonLink
