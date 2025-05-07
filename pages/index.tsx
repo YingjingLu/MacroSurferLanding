@@ -103,7 +103,7 @@ const HeroSection: React.FC = () => {
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                MacroSurfer is an open source platform that allows you to build your own <Em>macroeconomic</Em> and <Em>fundamental</Em> data curation pipeline for analysis and customize your own <Em>LLM</Em> based <Em>AI agent</Em> to make quantative investment decisions.
+                MacroSurfer is an open source platform that allows you to build your own <Em>macroeconomic</Em> and <Em>fundamental</Em> data curation pipeline for analysis and customize your own <Em>LLM</Em> based <Em>AI agent</Em> to make quantative analysis.
               </FallInPlace>
             }
           >
